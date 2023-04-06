@@ -24,12 +24,6 @@ When the status code is 200, whenever the server was able to post the data to Ma
 
 2023-03-15 (2)
 
-4. MailChimp Audience/Contact Dashboard
-
-
-2023-03-15 (6)
-
-
 
 Note:
 Built using HTML, CSS, Bootstrap CSS, JavaScript, Node.js, Express.js and MailChimp API.
