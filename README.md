@@ -30,9 +30,7 @@ The record/subscriber gets added on top of the list as highlighted in the image 
 2023-03-15 (6)
 
 5. OOPS! Some error occured
-And if the status is anything other than 200 then it will return "failure.html" file. There is a button which will redirect the user to the Newsletter Signup page once again, allowing them to try submitting their details again.
-
-2023-03-15 (3)
+And if the status is anything other than 200 then it will return "failure.html" file. There is a button which will redirect the user to the Newsletter Signup page once 
 
 
 
