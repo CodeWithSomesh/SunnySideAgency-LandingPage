@@ -31,12 +31,7 @@ And if the status is anything other than 200 then it will return "failure.html" 
 
 2023-03-15 (3)
 
-Website Link
-According to the course, I should use free Heroku account to host this landing page, but since now Heroku does not provide free hosting anymore, I had to find other hosting services like Render. But I tried uploading there and it failed to be deployed.
 
-image
-
-If anyone could help me out with this problem, I would be beyond grateful!!!
 
 Note:
 Built using HTML, CSS, Bootstrap CSS, JavaScript, Node.js, Express.js and MailChimp API.
