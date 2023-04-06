@@ -25,7 +25,7 @@ When the status code is 200, whenever the server was able to post the data to Ma
 2023-03-15 (2)
 
 4. MailChimp Audience/Contact Dashboard
-The record/subscriber gets added on top of the list as highlighted in the image below.
+
 
 2023-03-15 (6)
 
