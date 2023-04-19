@@ -1,0 +1,124 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+}
+
+.header-section{
+
+
+    height: 700px;
+    
+
+}
+
+.header-text{
+
+    position: absolute;
+}
+
+.header-img-container{
+
+    height: 100%;  
+}
+    
+
+
+.header-img{
+   
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+}
+
+.egg-section {
+
+    display: flex;
+    height: 600px;
+}
+
+.egg-section-text-container{
+
+    
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 100px;
+}
+
+.egg-section-text {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text-top{
+
+    font-weight: 900;
+    font-size: 30px;
+    color: hsl(212, 27%, 19%);
+    margin-bottom: 40px;
+}
+
+.text-content{
+
+    color: hsl(232, 10%, 55%);
+    font-size: 20px;
+}
+
+.text-btm{
+
+    font-weight: 700;
+    color: hsl(212, 27%, 19%);
+    margin-top: 40px;
+    border-bottom: 4px solid hsl(51, 100%, 49%); /*Needs fixes*/
+    
+}
+
+.egg-img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hotpink; 
+}
+*/
