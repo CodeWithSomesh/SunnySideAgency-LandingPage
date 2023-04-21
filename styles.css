@@ -11,7 +11,7 @@ body{
 p {
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
-
+    
 }
 
 .header-section{
@@ -91,8 +91,7 @@ p {
 .text-content{
 
     color: hsl(232, 10%, 55%);
-    font-size: 20px;
-    width: 500px;
+    width: 450px;
 }
 
 .text-btm{
@@ -153,29 +152,124 @@ p {
 .graphic-design-text-container {
 
     position: absolute;
-    bottom: 0%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
+.graphic-design-text-container h4{
 
 
+    color: hsl(167, 40%, 24%);
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 24px;
+    
+}
+
+.graphic-design-text-container p{
+
+    color: hsl(167, 40%, 24%);
+    width: 380px;
+    line-height: 165%;
+
+}
+
+.photography-text-container {
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.photography-text-container h4{
 
 
+    color: hsl(198, 62%, 26%);
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 24px;
+    
+}
 
+.photography-text-container p{
 
+    color: hsl(198, 62%, 26%);
+    width: 380px;
+    line-height: 165%;
 
-
-
-
+}
 
 
 
 .testimonialSection {
 
-    height: 900px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
 }
 
 
+.testimonial-header-text h1{
+    
+    color: hsl(210, 4%, 67%);
+    font-size: 18px;
+    letter-spacing: 0.3rem;
+    margin-bottom: 90px;
+}
 
+.testimonial-containers {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 16px;
+}
+
+.testimonial-img img{
+
+    border-radius: 72px;
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+.testimonial-text p{
+
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    color: hsl(213, 9%, 39%);
+    margin-bottom: 80px;
+    line-height: 2rem;
+}
+
+.testimonial-person h5{
+
+    font-size: 18px;
+}
+
+
+.testimonial-person p{
+
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color: hsl(210, 4%, 67%);
+
+}
 
 .lastSection {
 
@@ -184,7 +278,11 @@ p {
 }
 
 
+.footer {
 
+    background-color: #90d4c6;
+    height: 320px;
+}
 
 
 /*
