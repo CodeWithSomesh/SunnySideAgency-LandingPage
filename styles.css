@@ -9,10 +9,67 @@ body{
 }
 
 p, a {
+
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
     
 }
+
+.menu {
+
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.header-logo {
+
+    margin: 0 0 0 50px;
+
+
+}
+
+.header-logo img{
+
+    width: 130%;
+}
+
+.nav-links {
+
+    
+    width: 580px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.nav-links a{
+
+    text-decoration: none;
+    color: rgb(251, 248, 248, 82%);
+
+    
+    
+}
+
+.nav-links button{
+
+    color: hsl(212, 27%, 19%);
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+
+    
+}
+    
+
 
 .header-section{
 
@@ -96,7 +153,7 @@ p, a {
 
 .text-btm{
 
-    font-weight: 700;
+    font-weight: 900;
     color: hsl(212, 27%, 19%);
     margin: 40px 0 0 6px;
     cursor: pointer;
@@ -287,8 +344,20 @@ p, a {
     justify-content: center;
     align-items: center;
     
+    
 
 }
+
+.footer-logo {
+
+   width: 180px;
+}
+
+.footer-logo img{
+
+    width: 100%;
+}
+
 
 .footer-links {
 
@@ -301,15 +370,14 @@ p, a {
 
 .footer-links a{
 
-    color: hsl(168, 34%, 41%);
+    color: hsl(168, 34%, 41%, 90%);
     text-decoration: none;
-    font-size: 15px;
 }
 
 
 .icon-links {
 
-    width: 160px;
+    width: 165px;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
