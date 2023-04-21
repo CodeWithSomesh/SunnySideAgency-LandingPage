@@ -5,18 +5,15 @@ https://codewithsomesh.github.io/SunnySideAgency-LandingPage/
 
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Requirements - Desktop Version (1440px)
 
-Newsletter project using MailChimp API, Node,js and Express.js
+https://res.cloudinary.com/dz209s6jk/image/upload/v1623250117/Challenges/lvj0udxz21q6bicxkysz.jpg 
 
-This is a project which uses the Mailchimp API to make a NEWSLETTER webapp where you just signup for the newsletter using your details like firstname, lastname and email address.
+## Requirements - Mobile Version (375px)
 
-1. Landing page
-2023-03-15 (4)
+https://res.cloudinary.com/dz209s6jk/image/upload/v1623250271/Challenges/foi57flodeewqzruuyuh.jpg
 
-2. Filling up the form
-Whenever we enter the details in the signup form and submit the details then a post request is called and express handles the post request using node post function 
+#### Note:
+> Built using HTML, CSS & Bootstrap 
 
 
-Note:
-Built using HTML, CSS, Bootstrap CSS, JavaScript, Node.js, Express.js and MailChimp API.
