@@ -1,4 +1,4 @@
-# Website Link
+# Website Link (Desktop Version done, Mobile Version in progress)
 https://codewithsomesh.github.io/SunnySideAgency-LandingPage/
 
 # Frontend Mentor - Sunnyside Agency Landing Page
