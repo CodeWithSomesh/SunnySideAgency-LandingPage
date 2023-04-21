@@ -8,7 +8,7 @@ body{
     font-family: 'Fraunces', serif;
 }
 
-p {
+p, a {
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
     
@@ -282,16 +282,36 @@ p {
 
     background-color: #90d4c6;
     height: 320px;
-}
-
-
-/*
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
-.attribution a { 
-    color: hotpink; 
+
 }
-*/
+
+.footer-links {
+
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 70px;
+
+}
+
+.footer-links a{
+
+    color: hsl(168, 34%, 41%);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.icon-links {
+
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
