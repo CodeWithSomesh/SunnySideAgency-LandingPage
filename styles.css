@@ -53,9 +53,13 @@ p, a {
 
     text-decoration: none;
     color: rgb(251, 248, 248, 82%);
+    
+}
 
-    
-    
+.nav-links a:hover{
+
+    color: hsl(51, 100%, 49%);
+    transition: color 500ms;
 }
 
 .nav-links button{
@@ -65,15 +69,20 @@ p, a {
     border: none;
     border-radius: 50px;
     padding: 15px 30px;
-
-    
 }
     
+.nav-links button:hover{
+
+    color: white;
+    background-color: hsl(7, 99%, 70%);
+    transition: background-color 1000ms;
+}
 
 
 .header-section{
 
     height: 700px;
+    
 
 }
 
@@ -174,6 +183,7 @@ p, a {
 
     cursor: pointer;
     background-color: hsl(51, 100%, 49%);
+    opacity: 0.5;
     
 }
 
@@ -191,6 +201,7 @@ p, a {
 
     cursor: pointer;
     background-color: hsl(7, 99%, 70%);
+    opacity: 0.5;
     
 }
 
@@ -374,6 +385,12 @@ p, a {
     text-decoration: none;
 }
 
+.footer-links a:hover {
+
+    color: white;
+    transition: color 500ms; 
+} 
+
 
 .icon-links {
 
@@ -381,5 +398,13 @@ p, a {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+
+}
+
+
+.icon-links img:hover {
+
+    filter: brightness(0) invert(1);
+    transition: filter 500ms;
 
 }
