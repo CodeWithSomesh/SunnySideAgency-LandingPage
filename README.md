@@ -1,7 +1,7 @@
 # Website Link
 https://codewithsomesh.github.io/SunnySideAgency-LandingPage/
 
-# Frontend Mentor - Sunnyside agency landing page
+# Frontend Mentor - Sunnyside Agency Landing Page
 
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
 
