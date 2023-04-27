@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Fraunces', serif;
+
 }
 
 p, a {
@@ -81,7 +82,7 @@ p, a {
 
 .header-section{
 
-    height: 700px;
+    height: 750px;
     
 
 }
@@ -89,22 +90,24 @@ p, a {
 .header-text-container{
 
     position: absolute;
-    left: 28%;
-    bottom: 70%;
+    left: 50%;
+    bottom: 60%;
+    transform: translate(-50%, -50%);
     color: white;
 }
 
 .header-text-container h2{
 
-    font-size: 50px;
+    font-size: 55px;
     letter-spacing: 8px;
+    font-weight: 900;
 }
 
 .header-arrow-container{
 
     position: absolute;
     left: 49%;
-    bottom: 45%;
+    bottom: 40%;
 }
 
 
@@ -112,6 +115,8 @@ p, a {
 .header-img-container{
 
     height: 100%;  
+    position: relative;
+    z-index: -1;
 }
     
 
