@@ -14,6 +14,6 @@ https://res.cloudinary.com/dz209s6jk/image/upload/v1623250117/Challenges/lvj0udx
 https://res.cloudinary.com/dz209s6jk/image/upload/v1623250271/Challenges/foi57flodeewqzruuyuh.jpg
 
 #### Note:
-> Built using HTML, CSS & Bootstrap 
+> Built using HTML, CSS & JavaScript
 
 
