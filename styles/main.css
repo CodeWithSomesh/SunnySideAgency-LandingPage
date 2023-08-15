@@ -65,9 +65,6 @@
 
 .sections-text {
 
-    display: flex;
-    flex-direction: column;
-    margin: 0 200px;
     position: relative;
 }
 
@@ -97,37 +94,37 @@
 
 .empty-div1{
 
-    height: 6px;
+    height: 10px;
     width: 130px;
     background-color: hsl(51, 100%, 49%, 25%);
     border-radius: 4px;
     position: absolute;
-    bottom: 0%;
+    bottom: -1%;
 
 }
 
 .empty-div1:hover {
 
     cursor: pointer;
-    background-color: hsl(51, 100%, 49%);
+    background-color: hsl(43, 100%, 50%);
     opacity: 0.5;
     
 }
 
 .empty-div2{
 
-    height: 6px;
+    height: 10px;
     width: 130px;
     background-color: hsl(7, 99%, 70%, 25%);
     border-radius: 4px;
     position: absolute;
-    bottom: 0%;
+    bottom: -1%;
 }
 
 .empty-div2:hover {
 
     cursor: pointer;
-    background-color: hsl(7, 99%, 70%);
+    background-color: hsl(7, 99%, 45%);
     opacity: 0.5;
     
 }
@@ -158,16 +155,17 @@
 
     color: hsl(167, 40%, 24%);
     font-weight: 900;
-    font-size: 25px;
-    margin-bottom: 24px;
+    font-size: 30px;
+    margin-bottom: 28px;
     
 }
 
 .graphic-design-text-container p{
 
     color: hsl(167, 40%, 24%);
-    width: 380px;
+    width: 350px;
     line-height: 165%;
+    font-size: 16px;
 
 }
 
@@ -185,16 +183,17 @@
 
     color: hsl(198, 62%, 26%);
     font-weight: 900;
-    font-size: 25px;
-    margin-bottom: 24px;
+    font-size: 30px;
+    margin-bottom: 28px;
     
 }
 
 .photography-text-container p{
 
     color: hsl(198, 62%, 26%);
-    width: 380px;
+    width: 350px;
     line-height: 165%;
+    font-size: 16px;
 
 }
 
