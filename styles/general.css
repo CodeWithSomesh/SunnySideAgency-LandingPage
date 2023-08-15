@@ -1,0 +1,48 @@
+/* || RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* || VARIABLES*/
+
+:root{
+
+    /*COLORS*/
+        /*Primary*/
+    --SOFT-RED: hsl(7, 99%, 70%);
+    --YELLOW: hsl(51, 100%, 49%);
+    --GRAPHIC-DESIGN-TEXT-COLOR: hsl(167, 40%, 24%);
+    --PHOTOGRAPHY-TEXT-COLOR: hsl(198, 62%, 26%);
+    --FOOTER-BG-COLOR: #90d4c6;
+    --FOOTER-CONTENT-COLOR: hsl(168, 34%, 41%);
+
+        /*Neutral*/
+    --WHITE: hsl(0, 0%, 100%);
+    --NAV-BUTTON-TEXT-COLOR: hsl(212, 27%, 19%);
+    --SECTION-BTM-TEXT-COLOR: hsl(232, 10%, 55%);
+    --TESTIMONIAL-TEXT-COLOR: hsl(213, 9%, 39%);
+    --TESTIMONIAL-HEADER-COLOR: hsl(210, 4%, 67%);
+
+    /*FONTS*/
+    --HEADER-FONT-FAM: 'Fraunces', serif;
+    --TEXT-FONT-FAM: 'Barlow', sans-serif;
+    --FONT-SIZE: 18px; 
+
+}
+
+body{
+
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+}
+
+p, a {
+
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    
+}
