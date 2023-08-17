@@ -16,8 +16,6 @@
 
     margin: 0 0 0 50px;
     cursor: pointer;
-
-
 }
 
 .header-logo img{
@@ -26,8 +24,6 @@
 }
 
 .nav-links {
-
-    
     width: 580px;
     display: flex;
     justify-content: space-evenly;
@@ -39,13 +35,17 @@
 
     text-decoration: none;
     color: rgb(251, 248, 248, 82%);
+    border: 1px solid none;
+    border-radius: 50px;
+    padding: 8px 16px;
     
 }
 
 .nav-links a:hover{
-
-    color: var(--YELLOW);
-    transition: color 500ms;
+    
+    
+    background-color: hsla(0, 0%, 100%, 0.3);
+    transition: all 500ms;
 }
 
 .nav-links button{
@@ -60,6 +60,7 @@
 .nav-links button:hover{
 
     color: white;
-    background-color: hsl(7, 99%, 70%);
-    transition: background-color 1000ms;
+    background-color: var(--SOFT-RED);
+    transition: background-color 1s;
 }
+
