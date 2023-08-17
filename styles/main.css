@@ -62,7 +62,7 @@
 
 
 
-/* || SECTIONS*/
+/* || OTHER SECTIONS*/
 
 .sections {
 
@@ -282,6 +282,8 @@
     color: hsl(210, 4%, 67%);
 
 }
+
+/* || LAST SECTION*/
 
 .lastSection {
 

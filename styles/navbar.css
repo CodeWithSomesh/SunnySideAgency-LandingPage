@@ -1,6 +1,6 @@
 /* || NAVBAR*/
 
-.menu {
+.navbar {
 
     position: absolute;
     display: flex;
@@ -12,13 +12,13 @@
 }
 
 
-.header-logo {
+.site-logo {
 
     margin: 0 0 0 50px;
     cursor: pointer;
 }
 
-.header-logo img{
+.site-logo img{
 
     width: 130%;
 }
