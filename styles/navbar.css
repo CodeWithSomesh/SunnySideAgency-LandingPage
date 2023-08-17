@@ -14,7 +14,7 @@
 
 .site-logo {
 
-    margin: 0 0 0 50px;
+    margin-left: 50px;
     cursor: pointer;
 }
 
@@ -23,7 +23,7 @@
     width: 130%;
 }
 
-.nav-links {
+.nav-menu {
     width: 580px;
     display: flex;
     justify-content: space-evenly;
@@ -31,7 +31,7 @@
     
 }
 
-.nav-links a{
+.nav-links {
 
     text-decoration: none;
     color: rgb(251, 248, 248, 82%);
@@ -41,26 +41,91 @@
     
 }
 
-.nav-links a:hover{
+.nav-links:hover{
     
     
     background-color: hsla(0, 0%, 100%, 0.3);
     transition: all 500ms;
 }
 
-.nav-links button{
+.nav-button{
 
     color: hsl(212, 27%, 19%);
     font-size: 18px;
     border: none;
     border-radius: 50px;
     padding: 15px 30px;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
 }
     
-.nav-links button:hover{
+.nav-button:hover{
 
     color: white;
     background-color: var(--SOFT-RED);
-    transition: background-color 1s;
+    transition: background-color 1s;  
+    /*Not using 'transition:all' as I dont need the "color" to take time, 
+    then only there is a contrasting effect*/
 }
 
+.hamburger-menu{
+
+    display: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.hamburger-menu .bar{
+    height: 3px;
+    width: 40px;
+    background-color: var(--WHITE);
+    display: block;
+    margin: 10px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .hamburger-menu{
+        display: block;
+    }
+
+    .hamburger-menu.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger-menu.active .bar:first-child{
+        transform: translateY(13px) rotate(45deg);
+    }
+
+    .hamburger-menu.active .bar:last-child{
+        transform: translateY(-13px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        position: fixed;
+        text-align: center;
+        top: 100px;
+        background-color: var(--WHITE);
+        width: 100%;
+        margin: 0 20px;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .nav-menu.active{
+        opacity: 1;
+    }
+
+
+    .nav-links{
+        color: black;
+        margin: 15px 0;
+    }
+
+    .nav-button{
+        background-color: var(--YELLOW);
+        margin: 10px 0;
+    }
+}

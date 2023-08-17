@@ -41,6 +41,7 @@
     letter-spacing: 8px;
     font-weight: 900;
     margin-bottom: 80px; 
+    white-space: nowrap;
 
 }
 
@@ -233,6 +234,7 @@
     letter-spacing: 0.3rem;
     margin-bottom: 70px;
     font-weight: 900;
+    
 }
 
 .testimonial-containers {
