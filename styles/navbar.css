@@ -2,12 +2,12 @@
 
 .menu {
 
-    position: absolute;
     display: flex;
     width: 100%;
     height: 120px;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(62,191,255);
     
 }
 
@@ -64,3 +64,11 @@
     transition: background-color 1s;
 }
 
+.hamburger-menu {
+
+    display: none;
+}
+
+.hamburger-menu .bar{
+
+}

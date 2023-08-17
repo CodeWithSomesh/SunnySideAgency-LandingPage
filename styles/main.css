@@ -2,18 +2,14 @@
 
 .hero-section{
 
-    height: 750px;
+    height: auto;
     position: relative;
-    z-index: -1;
     
 }
 
 .hero-img-container{
 
     height: 100%;  
-    position: relative;
-    z-index: -1;
-    display: flex;
 }
     
 
@@ -28,7 +24,7 @@
 
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 10%;
     transform: translateX(-50%);
     text-align: center;
     
@@ -40,7 +36,7 @@
     font-size: 60px;
     letter-spacing: 8px;
     font-weight: 900;
-    margin-bottom: 80px; 
+    
 
 }
 

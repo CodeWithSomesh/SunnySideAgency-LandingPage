@@ -17,6 +17,7 @@ html{
 
     /*COLORS*/
         /*Primary*/
+    --HEADER-BLUE: rgb(62,191,255);
     --SOFT-RED: hsl(7, 99%, 70%);
     --YELLOW: hsl(51, 100%, 49%);
     --GRAPHIC-DESIGN-TEXT-COLOR: hsl(167, 40%, 24%);
