@@ -1,7 +1,16 @@
 //Initialize variables
 const hamburger = document.querySelector(".hamburger-menu");
-const hamburger_edge = document.querySelector(".hamburger-menu-edge")
+const hamburgerEdge = document.querySelector(".hamburger-menu-edge")
 const navMenu = document.querySelector(".nav-menu");
+const heroImg = document.getElementById("hero-img")
+const eggImg = document.getElementById("egg-img")
+const cupImg = document.getElementById("cup-img")
+const graphicDesignImg = document.getElementById("graphic-design-img")
+const photographyImg = document.getElementById("photography-img")
+const mlkBottlesImg = document.getElementById("milk-bottles-img")
+const orangeImg = document.getElementById("orange-img")
+const coneImg = document.getElementById("cone-img")
+const sugarCubesImg = document.getElementById("sugar-cubes-img")
 
 
 // When the hamburger menu is clicked on, the hamburger menu animation will occur and nav-menu will appear
@@ -9,7 +18,7 @@ const navMenu = document.querySelector(".nav-menu");
 hamburger.addEventListener('click', ()=>{
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
-    hamburger_edge.classList.toggle("active");
+    hamburgerEdge.classList.toggle("active");
 })
 
 //When one of the nav-links is selected, the hamburger menu should close
@@ -18,6 +27,6 @@ document.querySelectorAll(".nav-links").forEach(link => {
     link.addEventListener("click", () => {
         hamburger.classList.remove("active")
         navMenu.classList.remove("active")
-        hamburger_edge.classList.remove("active");
+        hamburgerEdge.classList.remove("active");
     })
 })

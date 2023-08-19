@@ -408,9 +408,11 @@
     /* || HERO SECTION*/
     .hero-section{
 
-        height: 540px;
+        height: 550px;
         
     }
+
+    
     
     .hero-content-container h1{
         font-size: 42px;
@@ -423,6 +425,7 @@
     .empty-div1, .empty-div2{
 
         right: 23%;
+        bottom: -1%;
         
     }
 
