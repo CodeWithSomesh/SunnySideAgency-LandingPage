@@ -1,5 +1,6 @@
 //Initialize variables
 const hamburger = document.querySelector(".hamburger-menu");
+const hamburger_edge = document.querySelector(".hamburger-menu-edge")
 const navMenu = document.querySelector(".nav-menu");
 
 
@@ -8,6 +9,7 @@ const navMenu = document.querySelector(".nav-menu");
 hamburger.addEventListener('click', ()=>{
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
+    hamburger_edge.classList.toggle("active");
 })
 
 //When one of the nav-links is selected, the hamburger menu should close
@@ -16,5 +18,6 @@ document.querySelectorAll(".nav-links").forEach(link => {
     link.addEventListener("click", () => {
         hamburger.classList.remove("active")
         navMenu.classList.remove("active")
+        hamburger_edge.classList.remove("active");
     })
 })
