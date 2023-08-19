@@ -9,15 +9,14 @@
     width: 100%;
     height: 120px;
     justify-content: space-between;
-    align-items: center;
-    
-    
+    align-items: center; 
 }
 
 
 .site-logo {
 
     margin-left: 50px;
+
 }
 
 .site-logo img{
