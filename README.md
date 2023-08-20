@@ -1,4 +1,4 @@
-<div align='center'><img style="width:30%" src='https://github.com/CodeWithSomesh/SunnySideAgency-LandingPage/assets/123357802/13e82aae-01d2-4b35-b168-c3a48a28313a'/></div>
+<div align='center'><img style="width:30%" src='https://github.com/CodeWithSomesh/SunnySideAgency-LandingPage/assets/123357802/13e82aae-01d2-4b35-b168-c3a48a28313a' target='_blank' /></div>
 
 
 <h2>About The Project</h2>
@@ -30,13 +30,18 @@ Link: https://codewithsomesh.github.io/SunnySideAgency-LandingPage/
 <br>
 
 #### Note:
-> Strengthened my understanding of React Hooks, such as useState and useEffect
+> Strengthened my understanding of CSS Position, CSS Grid, and CSS Flexbox
 > 
-> Improved my understanding of React Router DOM
+> Learnt how to build a Hamburger Menu
 > 
-> Used Axios Json Package to fetch API
+> Learnt using animation with CSS and JavaScript  
 > 
-> Getting better at using APIs 
+> Learnt that it is better to use percentage for 'width' and 'height' in CSS instead of using a fixed number as it will make the screen responsive.
+>
+> Learnt to use CSS Properties such as 'transition', 'transform', and 'filter'.
+>
+> Learnt that each <source> element in HTML represents a different source image and can include a 'media' attribute and a 'srcset' attribute.
+> 'media="(min-width: 768px)"'. This 'media' attribute specifies a condition for when to use this source image. In this project's case, it says to use the 'source' when the viewport width is at least 768 pixels. 
 
 
 
