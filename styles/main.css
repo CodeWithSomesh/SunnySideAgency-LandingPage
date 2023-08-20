@@ -16,25 +16,13 @@
     
 }
 
-.hero-img{
+.w-100{
 
     height: 100%;
     width: 100%;  
     object-fit: cover;
     
 }
-
-/* width: 100%;
-    max-width: 76.8rem;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-image: url(../assets/img/mobile/image-header.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center bottom; */
     
 
 .hero-content-container{
@@ -76,7 +64,7 @@
 
 
 
-/* || OTHER SECTIONS*/
+/* || EGG, CUP, GRAPHIC DESIGN & PHOTOGRAPHY SECTIONS*/
 
 .sections {
 
@@ -165,12 +153,6 @@
 
 }
 
-.sections-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
 
 .graphic-design-text-container {
 
@@ -314,6 +296,8 @@
 
 @media (max-width: 1300px) {
 
+    /* || TESTIMONIAL SECTION*/
+
     .testimonialSection{
         padding: 0 100px;
     }
@@ -323,8 +307,6 @@
 @media (max-width: 1000px) {
 
     /* || HERO SECTION*/
-
-    
 
     .hero-content-container h1{
         white-space: pre-wrap;
@@ -400,6 +382,8 @@
     .lastSection {
 
         grid-template-columns: 1fr 1fr;
+        height: fit-content;
+        width: fit-content;
     }
 }
 
@@ -411,12 +395,12 @@
         height: 550px;
         
     }
-
-    
     
     .hero-content-container h1{
         font-size: 42px;
     }
+
+    /* || OTHER SECTIONS*/
 
     .text-top, .text-content{
         max-width: 250px;
@@ -429,10 +413,6 @@
         
     }
 
-    .sections-img-container {
-        min-height: 500px;
-    
-    }
 
     .graphic-design-text-container{
 
@@ -456,6 +436,8 @@
         width: 300px;
 
     }
+
+    /* || TESTIMONIAL SECTION*/
 
     .testimonialSection{
         padding: 0 20px;
@@ -481,6 +463,7 @@
         font-size: 35px;
     }
 
+    /* || TESTIMONIAL SECTION*/
     .testimonial-header-text h1{
     
         line-height: 3rem;   
