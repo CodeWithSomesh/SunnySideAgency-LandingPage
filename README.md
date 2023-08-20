@@ -9,7 +9,7 @@
 <br>
 
 ## Website Live Demo
-Link: https://codewithsomesh.github.io/SunnySideAgency-LandingPage/
+<p>Link: <a href="https://codewithsomesh.github.io/SunnySideAgency-LandingPage" target='_blank'>https://codewithsomesh.github.io/SunnySideAgency-LandingPage/<a></p>
 
 <br>
 
