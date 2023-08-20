@@ -164,7 +164,7 @@
     text-align: center;
 }
 
-.graphic-design-text-container h4{
+.graphic-design-text-container h1{
 
 
     color: var(--GRAPHIC-DESIGN-TEXT-COLOR);
@@ -192,7 +192,7 @@
     text-align: center;
 }
 
-.photography-text-container h4{
+.photography-text-container h1{
 
 
     color: var(--PHOTOGRAPHY-TEXT-COLOR);
@@ -269,7 +269,7 @@
     line-height: 2rem;
 }
 
-.testimonial-person h5{
+.testimonial-person h1{
 
     font-size: var(--DEFAULT-FONT-SIZE);
     font-weight: 900;
