@@ -46,7 +46,6 @@
 
 .nav-links:hover{
     
-    
     background-color: var(--NAV-LINKS-BG-COLOR);
     transition: all 500ms;
 }
