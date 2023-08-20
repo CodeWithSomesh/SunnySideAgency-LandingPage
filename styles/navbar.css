@@ -36,7 +36,7 @@
 .nav-links {
 
     text-decoration: none;
-    color: rgb(251, 248, 248, 82%);
+    color: var(--NAV-LINKS-COLOR);
     border: 1px solid none;
     border-radius: 50px;
     padding: 8px 18px;
@@ -47,24 +47,24 @@
 .nav-links:hover{
     
     
-    background-color: hsla(0, 0%, 100%, 0.3);
+    background-color: var(--NAV-LINKS-BG-COLOR);
     transition: all 500ms;
 }
 
 .nav-button{
 
-    color: hsl(212, 27%, 19%);
-    font-size: 18px;
+    color: var(--NAV-BUTTON-TEXT-COLOR);
+    font-size: var(--DEFAULT-FONT-SIZE);
     border: none;
     border-radius: 50px;
     padding: 15px 30px;
-    font-family: 'Fraunces', serif;
+    font-family: var(--FRAUNCES-FONT-FAM);
     cursor: pointer;
 }
     
 .nav-button:hover{
 
-    color: white;
+    color: var(--WHITE);
     background-color: var(--SOFT-RED);
     transition: background-color 1s;  
     /*Not using 'transition:all' as I dont need the "color" to take time, 
@@ -87,6 +87,7 @@
     display: none;
     cursor: pointer;
     margin-right: 50px;
+    transition: all 0.3s;
 }
 
 .bar{
@@ -118,6 +119,10 @@
     
     .hamburger-menu{
         display: block;
+    }
+
+    .hamburger-menu.active {
+        transform: rotate(720deg);
     }
 
     .hamburger-menu.active .bar:nth-child(2){

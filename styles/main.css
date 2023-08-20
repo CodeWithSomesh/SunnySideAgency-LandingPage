@@ -38,7 +38,7 @@
 
 .hero-content-container h1{
 
-    color: white;
+    color: var(--WHITE);
     font-size: 60px;
     letter-spacing: 8px;
     font-weight: 900;
@@ -89,7 +89,7 @@
 
     font-weight: 900;
     font-size: 40px;
-    color: hsl(212, 27%, 19%);
+    color: var(--NAV-BUTTON-TEXT-COLOR);
     margin-bottom: 40px;
     line-height: 48px;
     width: 450px;
@@ -97,15 +97,16 @@
 
 .text-content{
 
-    color: hsl(232, 10%, 55%);
+    color: var(--SECTION-CONTENT-TEXT-COLOR);
     width: 450px;
+    line-height: 30px;
 }
 
 .text-btm{
-    font-family: 'Fraunces', serif;
+    font-family: var(--FRAUNCES-FONT-FAM);
     font-weight: 900;
     font-size: 16px;
-    color: hsl(212, 27%, 19%);
+    color: var(--NAV-BUTTON-TEXT-COLOR);
     margin: 40px 0 0 6px;
     cursor: pointer;
 }
@@ -166,7 +167,7 @@
 .graphic-design-text-container h4{
 
 
-    color: hsl(167, 40%, 24%);
+    color: var(--GRAPHIC-DESIGN-TEXT-COLOR);
     font-weight: 900;
     font-size: 30px;
     margin-bottom: 28px;
@@ -175,7 +176,7 @@
 
 .graphic-design-text-container p{
 
-    color: hsl(167, 40%, 24%);
+    color: var(--GRAPHIC-DESIGN-TEXT-COLOR);
     width: 350px;
     line-height: 165%;
     font-size: 16px;
@@ -194,7 +195,7 @@
 .photography-text-container h4{
 
 
-    color: hsl(198, 62%, 26%);
+    color: var(--PHOTOGRAPHY-TEXT-COLOR);
     font-weight: 900;
     font-size: 30px;
     margin-bottom: 28px;
@@ -203,7 +204,7 @@
 
 .photography-text-container p{
 
-    color: hsl(198, 62%, 26%);
+    color: var(--PHOTOGRAPHY-TEXT-COLOR);
     width: 350px;
     line-height: 165%;
     font-size: 16px;
@@ -227,7 +228,7 @@
 
 .testimonial-header-text h1{
     
-    color: hsl(210, 4%, 67%);
+    color: var(--TESTIMONIAL-HEADER-COLOR);
     font-size: 21px;
     letter-spacing: 0.3rem;
     margin-bottom: 70px;
@@ -262,25 +263,23 @@
 
 .testimonial-text p{
 
-    font-family: 'Barlow', sans-serif;
-    font-size: 18px;
-    color: hsl(213, 9%, 39%);
+    font-size: var(--DEFAULT-FONT-SIZE);
+    color: var(--TESTIMONIAL-TEXT-COLOR);
     margin-bottom: 70px;
     line-height: 2rem;
 }
 
 .testimonial-person h5{
 
-    font-size: 18px;
+    font-size: var(--DEFAULT-FONT-SIZE);
     font-weight: 900;
 }
 
 
 .testimonial-person p{
 
-    font-family: 'Barlow', sans-serif;
     font-size: 14px;
-    color: hsl(210, 4%, 67%);
+    color: var(--TESTIMONIAL-HEADER-COLOR);
 
 }
 
@@ -327,12 +326,6 @@
         font-size: 38px;
 
     }
-
-    .text-content{
-
-        line-height: 30px;
-    }
- 
 
     .empty-div1, .empty-div2{
 

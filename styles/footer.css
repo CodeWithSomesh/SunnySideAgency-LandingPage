@@ -33,13 +33,13 @@
 
 .footer-links a{
 
-    color: hsl(168, 34%, 41%, 90%);
+    color: var(--FOOTER-NAV-LINKS-COLOR);
     text-decoration: none;
 }
 
 .footer-links a:hover {
 
-    color: white;
+    color: var(--WHITE);
     transition: color 500ms; 
 } 
 
