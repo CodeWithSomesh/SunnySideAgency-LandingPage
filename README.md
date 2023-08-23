@@ -41,7 +41,7 @@ Link: https://codewithsomesh.github.io/SunnySideAgency-LandingPage/
 >
 > Learnt to use CSS Properties such as 'transition', 'transform', and 'filter'.
 >
-> Learnt that each <source> element in HTML represents a different source image and can include a 'media' attribute and a 'srcset' attribute.
+> Learnt that each <source> element in HHH represents a different source image and can include a 'media' attribute and a 'srcset' attribute.
 > 'media="(min-width: 768px)"'. This 'media' attribute specifies a condition for when to use this source image. In this project's case, it says to use the 'source' when the viewport width is at least 768 pixels. 
 
 
