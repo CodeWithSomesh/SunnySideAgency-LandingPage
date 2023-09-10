@@ -4,8 +4,16 @@
 <h2>About The Project 📖</h2>
   <h3>Sunnyside: Where Creativity Thrives</h3>
   <p>Sunnyside is a full-service creative agency specializing in helping brands grow fast. Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters to build and extend their client's brand in digital places. Specializing in graphic design and photography, offering the creative solutions businesses need to stand out in today's competitive market.</p>
+  <br>
 
 
+  <h3>Info:</h3>
+» Built with HTML, CSS & JavaScript
+<br>
+» Fully Responsive
+
+
+<br>
 <br>
 
 ## Website Live Demo 🌐
@@ -13,13 +21,6 @@ Link: https://codewithsomesh.github.io/SunnySideAgency-LandingPage/
 
 <br>
 
-<h3>Info:</h3>
-» Built with HTML, CSS & JavaScript
-<br>
-» Fully Responsive
-
-<br>
-<br>
 
 <h2>Project Preview 📸</h2>
 <h3 align='center'>Landing Page 🏡</h3>
