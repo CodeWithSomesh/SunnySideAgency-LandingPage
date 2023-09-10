@@ -1,7 +1,7 @@
 <div align='center'><img style="width:30%" src='https://github.com/CodeWithSomesh/SunnySideAgency-LandingPage/assets/123357802/13e82aae-01d2-4b35-b168-c3a48a28313a' target='_blank' /></div>
 
 
-<h2>About The Project</h2>
+<h2>About The Project 📖</h2>
   <h3>Sunnyside: Where Creativity Thrives</h3>
   <p>Sunnyside is a full-service creative agency specializing in helping brands grow fast. Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters to build and extend their client's brand in digital places. Specializing in graphic design and photography, offering the creative solutions businesses need to stand out in today's competitive market.</p>
 
